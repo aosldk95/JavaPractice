@@ -6,9 +6,11 @@ public class Main {
 		// TODO Auto-generated method stub
 		//PracticeClass.practice1();
 		//PracticeClass.practice2();
-		PracticeClass.practice3();
+		//PracticeClass.practice3();
 		//PracticeClass.practice4();
 		//PracticeClass.practice5();
+		
+		PracticeClass.practice13_2();
 	}
 
 }

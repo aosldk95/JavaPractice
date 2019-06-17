@@ -10,8 +10,8 @@ public class PracticeClass {
 		double celsius = 31.5;
 		double fahrenheit = Util.celsiusToFahrenheit(celsius);
 
-		System.out.println(String.format("Celsius : %.2f", celsius));
-		System.out.println(String.format("Fahrenheit : %.2f", fahrenheit));
+		System.out.printf("Celsius : %.2f%n", celsius);
+		System.out.printf("Fahrenheit : %.2f%n", fahrenheit);
 		System.out.println();
 	}
 
@@ -84,5 +84,28 @@ public class PracticeClass {
 
 			System.out.printf("The grade in %c.%n", grade);
 		}
+	}
+	
+	public static void practice13_2() {
+		Calculator<Double> doubleCalculator = new Calculator<Double>();
+		double a1 = 1.5;
+		double b1 = 3.0;
+		double ret1 = doubleCalculator.sum(a1, b1);
+		System.out.printf("Sum of %f and %f equals %f%n", a1, b1, ret1);
+		
+		Calculator<Integer> intCalculator = new Calculator<Integer>();
+		int a2 = 5;
+		int b2 = 8;
+		int ret2 = (int)(intCalculator.multiply(a2, b2));
+		System.out.printf("%d multiple %d equals %d%n", a2, b2, ret2);
+		
+		int a3 = 4;
+		int b3 = 8;
+		double ret3 = Calculator2.divide(a3, b3);
+		System.out.printf("%d divide %d equals %f%n", a3, b3, ret3);
+	}
+	
+	public static void practice16() {
+		
 	}
 }
