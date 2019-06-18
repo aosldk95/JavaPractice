@@ -9,8 +9,10 @@ public class Main {
 		//PracticeClass.practice3();
 		//PracticeClass.practice4();
 		//PracticeClass.practice5();
+	
+		//PracticeClass.practice13_2();
 		
-		PracticeClass.practice13_2();
+		PracticeClass.practice17();
 	}
 
 }
